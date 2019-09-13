@@ -1,5 +1,7 @@
 body{
     font-size: 10px;
+}
+.nonlisible{
     text-shadow: black .1rem .1rem;
 }
 .gold{
@@ -16,6 +18,8 @@ body{
 .titleImg{
     background-image: url(../img/leagueTitleScreen.jpg);
     background-repeat: no-repeat;
+    max-width: 100%;
+    height: auto;
 }
 .pyG{
     padding-top: 10rem;
@@ -26,8 +30,61 @@ hr{
     padding-top:30px;
     max-width: 50px;
     border-width: 3px;
+}
+.hr-gold{
     border-color: goldenrod;
+}
+.hr-black{
+    border-color: black;
+
 }
 .text1{
     font-size: 1.5rem;
+}
+.boutonrond{
+    border-radius: 30px;
+    box-shadow: black .1rem .1rem;
+}
+.btn-gold {
+    color: goldenrod;
+    background-color: goldenrod;
+    border-color: goldenrod;
+}
+.btn-black {
+    color: black;
+    background-color: black;
+    border-color: black;
+}
+.noire{
+    color: black;
+}
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: lightgray;
+}
+
+a:visited{
+    color: darkgoldenrod;
+}
+.backgroundmid{
+    background-color: goldenrod;
+}
+.logo{
+    font-size: 5rem;
+}
+h4{
+    font-size: 1.5rem;
+}
+p{
+   font-size: 1.25rem;
+}
+ul{
+    font-size: 1.25rem;
+}
+.imgFin{
+    width: 25%;
 }
