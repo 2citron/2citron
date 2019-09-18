@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7a24cd0-ae35-4e34-8f0a-ef37f2c129bc" name="Default Changelist" comment="" />
+    <list default="true" id="69d51970-8763-4b28-b247-b574f846ab46" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,33 +16,26 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
-        <option value="CSS File" />
+        <option value="index" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1QTPAtP7c3L4TS16aBfLDO4AEgd" />
+  <component name="ProjectId" id="1QyUZGfD9FAt54F9qezuUh7p5xy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\lambs\Documents\GitHub\2citron\DesignWeb\PremierSiteWeb\img" />
-      <recent name="D:\Programmes\PhpstormProjects\PremierSiteWeb\js" />
-      <recent name="D:\Programmes\PhpstormProjects\PremierSiteWeb" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Programmes\PhpstormProjects\PremierSiteWeb\img" />
-      <recent name="D:\Programmes\PhpstormProjects\PremierSiteWeb" />
+      <recent name="C:\Users\lambs\Documents\GitHub\2citron\DesignWeb\Facebook" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lambs\Documents\GitHub\2citron\DesignWeb\Facebook\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -62,17 +55,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a7a24cd0-ae35-4e34-8f0a-ef37f2c129bc" name="Default Changelist" comment="" />
-      <created>1567791472409</created>
+      <changelist id="69d51970-8763-4b28-b247-b574f846ab46" name="Default Changelist" comment="" />
+      <created>1568742383745</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1567791472409</updated>
-      <workItem from="1567791473558" duration="5038000" />
-      <workItem from="1568030939948" duration="661000" />
-      <workItem from="1568140286457" duration="2796000" />
-      <workItem from="1568291505837" duration="5528000" />
-      <workItem from="1568394486998" duration="7650000" />
-      <workItem from="1568742034824" duration="1084000" />
+      <updated>1568742383745</updated>
+      <workItem from="1568742385072" duration="4079000" />
     </task>
     <servers />
   </component>
@@ -84,9 +72,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>

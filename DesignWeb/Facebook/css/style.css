@@ -1,0 +1,14 @@
+html,body{
+    font-size: 16px;
+}
+
+.userImg{
+    width: 75px;
+
+}
+.bleu{
+    color: blue;
+}
+.bg-lighter-green{
+    background-color: #ccffcc;
+}
