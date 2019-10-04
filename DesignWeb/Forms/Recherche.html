@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Recherche</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container-fluid align-items-center">
+    <div class="row py-4">
+        <div class="col-md-8 text-center">
+            <img src="img/user_1.jpg" alt="Ahri corp." class="ac rounded-circle img-fluid">
+        </div>
+        <div class="col-md-4 vc">
+            <p>Ahri corp. 666 rue Lucifer, enfer</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="offset-1 col-10 text-center">
+            <h1>Recherche d'un forfait voyage</h1>
+        </div>
+    </div>
+    <form>
+        <div class="form-row pt-4">
+            <div class="col-4">
+                <input type="text" class="form-control" id="nom" aria-describedby="Nom" placeholder="Nom">
+            </div>
+            <div class="col-4">
+                <input type="text" class="form-control" id="prenom" aria-describedby="Prénom" placeholder="Prénom">
+            </div>
+            <div class="col-4">
+                <input type="text" class="form-control" id="adresse" aria-describedby="Adresse" placeholder="Adresse">
+            </div>
+        </div>
+        <div class="form-row py-2 pb-2">
+            <div class="col-4">
+                <input type="text" class="form-control" id="ville" aria-describedby="Ville" placeholder="Ville">
+            </div>
+            <div class="col-4">
+                <input type="text" class="form-control" id="cp" aria-describedby="Code postal" placeholder="Code postal">
+            </div>
+            <div class="col-4">
+                <input type="tel" class="form-control" id="tel" aria-describedby="Téléphone" placeholder="Tel">
+            </div>
+        </div>
+    </form>
+    <form>
+        <div class="row">
+            <div class="col">
+                <div class="form-row">
+                    <label for="Help">Destination</label>
+                    <select class="form-control" id="Help">
+                        <option selected>France</option>
+                        <option>Allemagne</option>
+                        <option>Espagne</option>
+                        <option>Italie</option>
+                        <option>Angleterre</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-3 col-md-6">
+                <label for="dateDep">Date de départ</label>
+                <input type="date" id="dateDep" class="form-control" placeholder="Date de départ">
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <label for="dateRtn">Date de retour</label>
+                <input type="date" id="dateRtn" class="form-control" placeholder="Date de retour">
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <label for="nbA">Nombre d'adultes</label>
+                <input type="number" id="nbA" class="form-control" placeholder="Nombre d'adultes">
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <label for="nbE">Nombre d'enfants</label>
+                <input type="number" id="nbE" class="form-control" placeholder="Nombre d'enfants">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col px-5">
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="1" id="Urgent" value="1" checked>
+                        <label class="form-check-label" for="Urgent">
+                            Avion
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="1" id="Imp" value="2">
+                        <label class="form-check-label" for="Imp">
+                            Train
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col px-5">
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="2" id="Teey" value="1" checked>
+                        <label class="form-check-label" for="Teey">
+                            Première Classe
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="2" id="Yeet" value="2">
+                        <label class="form-check-label" for="Yeet">
+                            Économique
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="offset-1 col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="tc">
+                    <label class="form-check-label" for="tc">
+                        Tout compris
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="pl">
+                    <label class="form-check-label" for="pl">
+                        Sur la plage
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="glf">
+                    <label class="form-check-label" for="glf">
+                        Près d'un golf
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid mh-g">
+            <iframe class="mh-g" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.94722681658!2d2.2770199003207!3d48.85883773915892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis%2C%20France!5e0!3m2!1sfr!2sca!4v1570196590863!5m2!1sfr!2sca" height="100%" width="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe
+        </div>
+    </form>
+</div>
+<form action="FormulaireEnvoye.html">
+    <input type="submit" value="Envoyer la demande">
+</form>
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB" crossorigin="anonymous"></script>
+</body>
+</html>

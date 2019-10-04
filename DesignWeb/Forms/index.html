@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <h2>Demande d'aide</h2>
+    <form>
+        <div class="form-row">
+            <div class="form-group col-6">
+                <label for="nom">Nom</label>
+                <input type="text" class="form-control" id="nom" aria-describedby="Nom" placeholder="Nom">
+            </div>
+            <div class="form-group col-6">
+                <label for="prenom">Prénom</label>
+                <input type="text" class="form-control" id="prenom" aria-describedby="Prénom" placeholder="Prénom">
+            </div>
+        </div>
+        <div class="form-row">
+            <label for="Help">Sujet de la demande</label>
+            <select class="form-control" id="Help">
+                <option selected>HTML</option>
+                <option>CSS</option>
+                <option>Bootstrap</option>
+                <option>Autre</option>
+            </select>
+        </div>
+
+        <div class="form-row">
+            <label for="quest">Question</label>
+            <textarea id="quest" rows="6" class="form-control"></textarea>
+        </div>
+
+        <div class="form-group">
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="1" id="Urgent" value="1" checked>
+                <label class="form-check-label" for="Urgent">
+                    Urgent
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="1" id="Imp" value="2">
+                <label class="form-check-label" for="Imp">
+                    Important
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="1" id="pat" value="3">
+                <label class="form-check-label" for="pat">
+                    Peut attendre
+                </label>
+            </div>
+        </div>
+        <div class="form-group">
+            <input type="reset">
+        </div>
+    </form>
+    <form action="FormulaireEnvoye.html">
+        <input type="submit" value="Remettre le formulaire">
+    </form>
+</div>
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB" crossorigin="anonymous"></script>
+</body>
+</html>

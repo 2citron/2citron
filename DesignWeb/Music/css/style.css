@@ -1,0 +1,43 @@
+.adjust{
+    height: 900px;
+    width: 1600px
+}
+.navbar-lightblue{
+    color: deepskyblue;
+}
+.bg-darker{
+    background-color: lightcyan;
+}
+.mince{
+    max-height: 50px;
+}
+.top{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+}
+.bot{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 10000;
+}
+.ptg{
+    padding-top: 70px;
+}
+select{
+    border: none;
+}
+select:focus{
+    border: none;
+    outline: none;
+}
+.sombre{
+    color: darkblue;
+}
+.yeet{
+    color: skyblue;
+    height: fit-content;
+    font-size: 5vw;
+}

@@ -3,7 +3,8 @@ html,body{
 }
 
 .userImg{
-    width: 75px;
+    max-width: 75px;
+    width: 100%;
 
 }
 .bleu{
@@ -11,4 +12,21 @@ html,body{
 }
 .bg-lighter-green{
     background-color: #ccffcc;
+}
+.feedImg{
+    max-width: 60px;
+    width: 100%;
+}
+
+h5{
+    font-size: 16px;
+}
+.white{
+    text-decoration: none;
+    color: white;
+}
+.txtResp{
+    max-font-size: 16px;
+    min-font-size: 5px;
+    font-size-adjust: initial;
 }

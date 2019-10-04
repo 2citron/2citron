@@ -1,0 +1,19 @@
+.ac{
+    max-width: 150px;
+}
+.vc{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.mh-g{
+    max-height: 1000px;
+    min-height: 500px;
+    max-width: 1000px;
+    min-width: 100px;
+}
+
+@media only screen and (max-width: 500px){
+    .mh-g{
+        min-height: 100px;
+    }
+}

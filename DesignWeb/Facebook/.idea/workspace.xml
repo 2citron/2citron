@@ -28,14 +28,15 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lambs\Documents\GitHub\2citron\DesignWeb\Facebook\img" />
+      <recent name="C:\Users\lambs\Documents\GitHub\2citron\DesignWeb\Facebook\css" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lambs\Documents\GitHub\2citron\DesignWeb\Facebook" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\lambs\Documents\GitHub\2citron\DesignWeb\Facebook\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -60,7 +61,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568742383745</updated>
-      <workItem from="1568742385072" duration="4079000" />
+      <workItem from="1568742385072" duration="4813000" />
+      <workItem from="1568895148250" duration="7577000" />
+      <workItem from="1569003462021" duration="1655000" />
+      <workItem from="1569242490125" duration="881000" />
     </task>
     <servers />
   </component>
@@ -72,7 +76,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

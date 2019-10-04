@@ -1,0 +1,146 @@
+html,body{
+    margin:0; height:100%;
+}
+.h-60{
+    height: 60%;
+}
+.zone1 {
+    background-image: url(../img/ArcadeScreen.PNG);
+    min-height: 500px;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index:-300000000000000000000;
+}
+.zone3 {
+    background-image: url(../img/DogScreen.PNG);
+    min-height: 500px;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index:-300000000000000;
+}
+.zone4 {
+    background-image: url(../img/StarGuardianScreen.PNG);
+    min-height: 500px;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index:-300000000;
+}
+.bg-primary1 {
+    background-size: cover;
+    position: absolute;
+}
+.bg-secondary1 {
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.vm{
+    vertical-align: middle;
+}
+.bg-primary1{
+    background-color: rgba(0,255,255,.3);
+}
+.bg-secondary1{
+    background-color: rgba(255,255,255,.5);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    color: lightgrey;
+}
+a:visited{
+    text-decoration: none;
+    color: grey;
+}
+.bg-secondary2{
+    background-image: url(../img/PoolPartyScreen.PNG);
+    min-height: 500px;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.zt1{
+    background-size: cover;
+    position: absolute;
+    bottom: 50%;
+    right: 30%;
+}
+.centerYes{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.w{
+    color:white;
+}
+.bg-ter1{
+    background-color: limegreen;
+}
+.bg-ter2{
+    background-color: lightblue;
+}
+.bg-ter3{
+    background-color: gold;
+}
+/* Cellulaires */
+@media only screen and (max-width: 480px){
+.zone1{
+    background-image: url(../img/ArcadeScreenCell.PNG);
+}
+.zone3{
+    background-image: url(../img/DogScreenCell.PNG);
+}
+.zone4{
+    background-image: url(../img/StarGuardianScreenCell.PNG);
+}
+}
+/* TABLETTES */
+@media screen and (min-width: 481px) and (max-width: 1199px) {
+    .zone1{
+        background-image: url(../img/ArcadeScreenTab.PNG);
+    }
+    .zone3{
+        background-image: url(../img/DogScreenTab.PNG);
+    }
+    .zone4{
+        background-image: url(../img/StarGuardianScreenTab.PNG);
+    }
+}
+.b{
+    color: black;
+}
+.bg-primary2 {
+    background-size: cover;
+    position: absolute;
+    background-color: rgba(0,0,0,.3);
+}
+.btn-lightblue{
+    color: deepskyblue;
+    background-color: deepskyblue;
+    border-color: black;
+}
+.btn-gold{
+    color: goldenrod;
+    background-color: goldenrod;
+    border-color: black;
+}
+.btn-lightgreen{
+    color: lightgreen;
+    background-color: green;
+    border-color: black;
+}

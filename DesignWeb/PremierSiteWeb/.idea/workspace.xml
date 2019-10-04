@@ -30,7 +30,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Facebook" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -73,6 +73,8 @@
       <workItem from="1568291505837" duration="5528000" />
       <workItem from="1568394486998" duration="7650000" />
       <workItem from="1568742034824" duration="1084000" />
+      <workItem from="1568895118080" duration="4022000" />
+      <workItem from="1570212765499" duration="808000" />
     </task>
     <servers />
   </component>
