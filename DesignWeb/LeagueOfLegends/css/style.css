@@ -224,4 +224,28 @@ a:visited{
     .display-4{
         font-size: 1.2rem;
     }
+    .parallax-poppy{
+        background-image: url(../img/parallaxPoppyTab.jpg);
+        min-height: 100vh;
+        background-attachment: fixed;
+        background-position: -850px 68px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .parallax-jhin{
+        background-image: url(../img/parallaxJhinTab.jpg);
+        min-height: 100vh;
+        background-attachment: fixed;
+        background-position: -600px 68px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .parallax-ahri{
+        background-image: url(../img/parallaxAhriTab.jpg);
+        min-height: 100vh;
+        background-attachment: fixed;
+        background-position: -800px 68px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }

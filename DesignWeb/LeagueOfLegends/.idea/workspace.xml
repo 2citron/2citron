@@ -33,11 +33,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\lambs\Documents\GitHub\2citron\DesignWeb\LeagueOfLegends" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\lambs\Documents\GitHub\2citron\DesignWeb\LeagueOfLegends\img" />
+      <recent name="C:\Users\lambs\Documents\GitHub\2citron\DesignWeb\LeagueOfLegends" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lambs\Documents\GitHub\2citron\DesignWeb\LeagueOfLegends" />
     </key>
   </component>
@@ -64,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1570555276537</updated>
       <workItem from="1570555277821" duration="40141000" />
-      <workItem from="1570888452253" duration="347000" />
+      <workItem from="1570888452253" duration="829000" />
     </task>
     <servers />
   </component>
