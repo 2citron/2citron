@@ -169,7 +169,7 @@ a:visited{
     }
     .parallax-poppy{
         background-image: url(../img/parallaxPoppyCell.jpg);
-        min-height: 100vh;
+        min-height: 675px;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -177,7 +177,7 @@ a:visited{
     }
     .parallax-jhin{
         background-image: url(../img/parallaxJhinCell.jpg);
-        min-height: 100vh;
+        min-height: 675px;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -185,7 +185,7 @@ a:visited{
     }
     .parallax-ahri{
         background-image: url(../img/parallaxAhriCell.jpg);
-        min-height: 100vh;
+        min-height: 675px;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -226,7 +226,7 @@ a:visited{
     }
     .parallax-poppy{
         background-image: url(../img/parallaxPoppyTab.jpg);
-        min-height: 100vh;
+        min-height: 675px;
         background-attachment: fixed;
         background-position: -850px 68px;
         background-repeat: no-repeat;
@@ -234,7 +234,7 @@ a:visited{
     }
     .parallax-jhin{
         background-image: url(../img/parallaxJhinTab.jpg);
-        min-height: 100vh;
+        min-height: 675px;
         background-attachment: fixed;
         background-position: -600px 68px;
         background-repeat: no-repeat;
@@ -242,7 +242,7 @@ a:visited{
     }
     .parallax-ahri{
         background-image: url(../img/parallaxAhriTab.jpg);
-        min-height: 100vh;
+        min-height: 675px;
         background-attachment: fixed;
         background-position: -800px 68px;
         background-repeat: no-repeat;
