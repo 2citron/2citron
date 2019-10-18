@@ -169,25 +169,25 @@ a:visited{
     }
     .parallax-poppy{
         background-image: url(../img/parallaxPoppyCell.jpg);
-        height: 675px;
+        height: 100vh;
         background-attachment: fixed;
-        background-position: center;
+        background-position: center 68px;
         background-repeat: no-repeat;
         background-size: cover;
     }
     .parallax-jhin{
         background-image: url(../img/parallaxJhinCell.jpg);
-        height: 675px;
+        height: 100vh;
         background-attachment: fixed;
-        background-position: center;
+        background-position: center 68px;
         background-repeat: no-repeat;
         background-size: cover;
     }
     .parallax-ahri{
         background-image: url(../img/parallaxAhriCell.jpg);
-        height: 675px;
+        height: 100vh;
         background-attachment: fixed;
-        background-position: center;
+        background-position: center 68px;
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -195,56 +195,56 @@ a:visited{
 /* TABLETTES */
 @media screen and (min-width: 481px) and (max-width: 1199px) {
     .fs12{
-        font-size: .6rem;
+        font-size: .9rem;
     }
     .fs15{
-        font-size: .75rem;
+        font-size: 1.125rem;
     }
     .fs16{
-        font-size: .8rem;
+        font-size: 1.2rem;
     }
     .fs20{
-        font-size: 1rem;
-    }
-    .fs30{
         font-size: 1.5rem;
     }
+    .fs30{
+        font-size: 2.25rem;
+    }
     .fs50{
-        font-size: 2.5rem;
+        font-size: 3.75rem;
     }
     h2{
-        font-size: 1.2rem;
+        font-size: 1.8rem;
     }
     h3{
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     h4{
-        font-size: .8rem;
+        font-size: 1.2rem;
     }
     .display-4{
-        font-size: 1.2rem;
+        font-size: 1.8rem;
     }
     .parallax-poppy{
         background-image: url(../img/parallaxPoppyTab.jpg);
-        height: 675px;
+        height: 100vh;
         background-attachment: fixed;
-        background-position: center;
+        background-position: right 68px;
         background-repeat: no-repeat;
         background-size: cover;
     }
     .parallax-jhin{
         background-image: url(../img/parallaxJhinTab.jpg);
-        height: 675px;
+        height: 100vh;
         background-attachment: fixed;
-        background-position: center;
+        background-position: center 68px;
         background-repeat: no-repeat;
         background-size: cover;
     }
     .parallax-ahri{
         background-image: url(../img/parallaxAhriTab.jpg);
-        height: 675px;
+        height: 100vh;
         background-attachment: fixed;
-        background-position: center;
+        background-position: right 68px;
         background-repeat: no-repeat;
         background-size: cover;
     }
