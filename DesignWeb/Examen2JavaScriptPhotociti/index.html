@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+    <title>PhotoTexto</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="fav.png"/>
+
+    <script defer src="js/jquery-3.4.1.min.js"></script>
+    <script defer src="js/bootstrap.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB" crossorigin="anonymous"></script>
+    <script defer src="js/myScript.js"></script>
+
+</head>
+<body>
+<header class="container d-print-none">
+    <div class="row pt-4">
+        <h3>Étape 1</h3>
+    </div>
+    <div class="row align-items-center">
+        <i class="far fa-keyboard kbi"></i>
+        <h3 class="pl-3">Entrez votre mot</h3>
+    </div>
+    <div class="row no-gutters pt-3">
+        <div class="offset-1 col-9">
+            <form>
+                <input id="Mot" type="text" class="form-control text-center" placeholder="entrez un mot entre 3 et 12 caractère">
+            </form>
+        </div>
+        <div class="col-1 pl-1">
+            <button id="GO" type="button" class="btn btn-dark">Go</button>
+        </div>
+    </div>
+    <div class="row py-3">
+        <small class="smoll">Utilisez * pour les caractères spéciaux</small>
+    </div>
+</header>
+<section>
+    <div id="Affichage" class="container py-4 d-print-block align-items-center">
+        <small id='Affichage0'><i>Mot trop petit</i></small>
+        <small id='Affichage5'><i>Mot trop grand</i></small>
+        <div id="Affichage1" class="row bg no-gutters">
+
+        </div>
+        <div id="Affichage2" class="row bg no-gutters">
+
+        </div>
+        <div id="Affichage3" class="row bg no-gutters">
+
+        </div>
+        <div id="Affichage4" class="row bg no-gutters">
+
+        </div>
+        <button id="BlackMagic" type="button" class="btn btn-danger fs12 d-print-none" data-toggle="modal" data-target="#exampleModal">
+        </button>
+        <div class="modal d-print-none" tabindex="-1" role="dialog" id="exampleModal">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button id="Close" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                            <ul class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                                <li data-target="#myCarousel" data-slide-to="3"></li>
+                                <li data-target="#myCarousel" data-slide-to="4"></li>
+                            </ul>
+
+                            <div id="Carousel" class="carousel-inner">
+                                <div class="carousel-item active align-items-center">
+                                    <img class="img-fluid" src="Letters/A/A1.jpg" alt="A">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="img-fluid" src="Letters/A/A2.jpg" alt="A">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="img-fluid" src="Letters/A/A3.jpg" alt="A">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="img-fluid" src="Letters/A/A4.jpg" alt="A">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="img-fluid" src="Letters/A/A5.jpg" alt="A">
+                                </div>
+                            </div>
+
+                            <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="container py-2 d-print-none">
+    <h3>Étape 2 : Choisissez un fond</h3>
+    <form class="form-row">
+        <div class="form-check col">
+            <input class="form-check-input" type="radio" name="bg" id="blanc" value="1">
+            <label class="form-check-label" for="blanc">
+                Blanc
+            </label>
+        </div>
+        <div class="form-check col">
+            <input class="form-check-input" type="radio" name="bg" id="bleu" value="2">
+            <label class="form-check-label" for="bleu">
+                Bleu
+            </label>
+        </div>
+        <div class="form-check col">
+            <input class="form-check-input" type="radio" name="bg" id="bleuFonce" value="3">
+            <label class="form-check-label" for="bleuFonce">
+                Bleu Foncé
+            </label>
+        </div>
+        <div class="form-check col">
+            <input class="form-check-input" type="radio" name="bg" id="gris" value="4">
+            <label class="form-check-label" for="gris">
+                Gris
+            </label>
+        </div>
+        <div class="form-check col">
+            <input class="form-check-input" type="radio" name="bg" id="noir" value="5">
+            <label class="form-check-label" for="noir">
+                Noir
+            </label>
+        </div>
+        <div class="form-check col">
+            <input class="form-check-input" type="radio" name="bg" id="rose" value="6">
+            <label class="form-check-label" for="rose">
+                Rose
+            </label>
+        </div>
+        <div class="form-check col">
+            <input class="form-check-input" type="radio" name="bg" id="rouge" value="7">
+            <label class="form-check-label" for="rouge">
+                Rouge
+            </label>
+        </div>
+    </form>
+    <br>
+    <h3>Étape 3: Imprimer</h3>
+    <p class="smoll">Pour ce faire, faites ctrl+P</p>
+</footer>
+</body>
+</html>
