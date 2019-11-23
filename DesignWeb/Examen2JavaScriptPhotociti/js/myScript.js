@@ -116,6 +116,9 @@ $(document).on('click', 'img', function(){
                     if(ch[16]==="S"){
                         $('#Carousel').append("<div class=\"carousel-item active align-items-center\"><img class=\"img-fluid autocenter\" src=\"Letters/CS/CS"+i+".jpg\" alt=\"CS\"></div>");
                     }
+                    else{
+                        $('#Carousel').append("<div class=\"carousel-item active align-items-center\"><img class=\"img-fluid autocenter\" src=\"Letters/C/C"+i+".jpg\" alt=\"C\"></div>");
+                    }
                 }
                 else {
                     $('#Carousel').append("<div class=\"carousel-item active align-items-center\"><img class=\"img-fluid autocenter\" src=\"Letters/"+ch[15]+"/"+ch[15]+i+".jpg\" alt=\""+ch[15]+"\"></div>");
@@ -125,7 +128,9 @@ $(document).on('click', 'img', function(){
                 if(ch[15]==="C"){
                     if(ch[16]==="S"){
                         $('#Carousel').append("<div class=\"carousel-item align-items-center\"><img class=\"img-fluid autocenter\" src=\"Letters/CS/CS"+i+".jpg\" alt=\"CS\"></div>");
-
+                    }
+                    else{
+                        $('#Carousel').append("<div class=\"carousel-item align-items-center\"><img class=\"img-fluid autocenter\" src=\"Letters/C/C"+i+".jpg\" alt=\"C\"></div>");
                     }
                 }
                 else{

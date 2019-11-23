@@ -30,7 +30,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PokeMe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -62,6 +62,7 @@
       <updated>1574187948511</updated>
       <workItem from="1574187949699" duration="276000" />
       <workItem from="1574188292359" duration="31041000" />
+      <workItem from="1574532990638" duration="522000" />
     </task>
     <servers />
   </component>
