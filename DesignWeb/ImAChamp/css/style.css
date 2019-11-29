@@ -5,14 +5,14 @@ p {
 
 .bg-Stats {
   background-image: url("../img/Stats_Name.png");
-  background-size: 100%;
+  background-size: 78%;
   background-repeat: no-repeat;
 }
 
 .NomChamp {
   position: absolute;
   left: 220px;
-  top: 32px;
+  top: 31px;
 }
 
 .Title {
@@ -22,15 +22,15 @@ p {
 }
 
 .p-bg-Stats {
-  padding-bottom: 703px;
+  padding-bottom: 600px;
 }
 
 .ghost {
-  height: 159px;
-  width: 159px;
+  height: 160px;
+  width: 160px;
   position: absolute;
-  left: 32px;
-  top: 32px;
+  left: 31px;
+  top: 31px;
 }
 
 .Health {

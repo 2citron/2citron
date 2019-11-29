@@ -19,20 +19,22 @@
         <option value="index " />
         <option value="JavaScript File" />
         <option value="Sass File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
   </component>
   <component name="ProjectId" id="1TI2IBMZJRD5zl1YXLUo0YMgdEm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
-    <property name="list.type.of.created.stylesheet" value="Sass" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -72,6 +74,10 @@
       <workItem from="1574188226478" duration="65000" />
       <workItem from="1574287993766" duration="543000" />
       <workItem from="1574878568315" duration="21563000" />
+      <workItem from="1574987167912" duration="19000" />
+      <workItem from="1574987195871" duration="82000" />
+      <workItem from="1574987295385" duration="664000" />
+      <workItem from="1574989116313" duration="3297000" />
     </task>
     <servers />
   </component>

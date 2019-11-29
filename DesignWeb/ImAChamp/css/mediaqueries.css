@@ -1,0 +1,65 @@
+@media screen and (width: 1024px){
+    .bg-Stats{
+        background-size: 125%;
+    }
+}
+@media screen and (width: 1366px){
+    .bg-Stats{
+        background-size: 92%;
+    }
+}
+@media screen and (width: 812px){
+    .bg-Stats{
+        background-size: 84%;
+    }
+}
+@media screen and (width: 375px){
+    .bg-Stats{
+        background-size: 174%;
+    }
+}
+@media screen and (width: 414px){
+    .bg-Stats{
+        background-size: 155%;
+    }
+}
+@media screen and (width: 411px){
+    .bg-Stats{
+        background-size: 157%;
+    }
+}
+@media screen and (width: 320px){
+    .bg-Stats{
+        background-size: 207%;
+    }
+}
+@media screen and (width: 360px){
+    .bg-Stats{
+        background-size: 182%;
+    }
+}
+@media screen and (width: 1920px){
+    .bg-Stats{
+        background-size: 64%;
+    }
+}
+@media screen and (width: 1680px){
+    .bg-Stats{
+        background-size: 74.5%;
+    }
+}
+@media screen and (width: 1900px){
+    .bg-Stats{
+        background-size: 65%;
+    }
+}
+@media screen and (width: 1600px){
+    .bg-Stats{
+        background-size: 78%;
+    }
+}
+@media screen and (width: 1280px){
+    .bg-Stats{
+        background-size: 98%;
+    }
+}
