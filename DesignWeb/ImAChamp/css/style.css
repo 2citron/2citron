@@ -1,0 +1,75 @@
+p {
+  position: absolute;
+  font-size: 23px;
+}
+
+.bg-Stats {
+  background-image: url("../img/Stats_Name.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.NomChamp {
+  position: absolute;
+  left: 220px;
+  top: 32px;
+}
+
+.Title {
+  position: absolute;
+  left: 220px;
+  top: 85px;
+}
+
+.p-bg-Stats {
+  padding-bottom: 703px;
+}
+
+.ghost {
+  height: 159px;
+  width: 159px;
+  position: absolute;
+  left: 32px;
+  top: 32px;
+}
+
+.Health {
+  top: 270px;
+  left: 72px;
+}
+
+.HealthRegen {
+  top: 270px;
+  left: 353px;
+}
+
+.AttackDamage {
+  top: 343px;
+  left: 72px;
+}
+
+.Armor {
+  top: 343px;
+  left: 353px;
+}
+
+.AttackSpeed {
+  top: 418px;
+  left: 72px;
+}
+
+.MagicResist {
+  top: 418px;
+  left: 353px;
+}
+
+.Movement {
+  top: 490px;
+  left: 72px;
+}
+
+.Code {
+  font-size: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

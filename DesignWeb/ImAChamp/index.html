@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+    <title>I'm a Champion</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script defer src="js/jquery-3.4.1.min.js"></script>
+    <script defer src="js/bootstrap.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB" crossorigin="anonymous"></script>
+    <script defer src="js/myScript.js"></script>
+</head>
+<body>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-xl-5">
+                <form>
+                    <h2>Champion</h2>
+                    <div class="row">
+                        <div class="col">
+                            <label for="NomChamp">Champion Name</label>
+                            <input type="text" class="form-control" id="NomChamp" placeholder="Champion Name">
+                        </div>
+                        <div class="col">
+                            <label for="Title">Title</label>
+                            <input type="text" id="Title" class="form-control" placeholder="Title ex. : the Nine-tailed Fox">
+                        </div>
+                    </div>
+                    <h2>Stats</h2>
+                    <div class="row">
+                        <div class="col">
+                            <label for="Health">Health</label>
+                            <input type="text" class="form-control py-2" id="Health" placeholder="Health">
+                        </div>
+                        <div class="col">
+                            <label for="HealthRegen">Health Regen</label>
+                            <input type="text" class="form-control py-2" id="HealthRegen" placeholder="Health Regen">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label for="AttackDamage">Attack Damage</label>
+                            <input type="text" class="form-control py-2" id="AttackDamage" placeholder="Attack Damage">
+                        </div>
+                        <div class="col">
+                            <label for="Armor">Armor</label>
+                            <input type="text" class="form-control py-2" id="Armor" placeholder="Armor">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label for="AttackSpeed">Attack Speed</label>
+                            <input type="text" class="form-control py-2" id="AttackSpeed" placeholder="Attack Speed">
+                        </div>
+                        <div class="col">
+                            <label for="MagicResist">Magic Resist</label>
+                            <input type="text" class="form-control py-2" id="MagicResist" placeholder="Magic Resist">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label for="MovementSpeed">Movement Speed</label>
+                            <input type="text" class="form-control py-2" id="MovementSpeed" placeholder="Movement Speed">
+                        </div>
+                        <div class="col">
+                            <label for="Image">Picture</label>
+                            <input type="text" class="form-control py-2" id="Image" placeholder="Picture's URL">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <label for="SaveCode">Loading Code</label>
+                            <input type="text" class="form-control py-2" id="SaveCode" placeholder="Loading Code">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col py-4">
+                            <button id="create" type="button" class="btn btn-dark">Generate</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 py-2">
+                            <p class="Code">Copy this code to save your champion</p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-xl-6">
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-12 bg-Stats p-bg-Stats">
+                            <h1 class="NomChamp">Blitzcrank</h1>
+                            <p class="Title">the Darkin Blade</p>
+                            <img src="img/user_2.jpg" class="ghost"/>
+                            <p class="Health">580</p>
+                            <p class="HealthRegen">3</p>
+                            <p class="AttackDamage">60</p>
+                            <p class="Armor">38</p>
+                            <p class="AttackSpeed">(+2.5% per level)</p>
+                            <p class="MagicResist">32.1</p>
+                            <p class="Movement">345</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
