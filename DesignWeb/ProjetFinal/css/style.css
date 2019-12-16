@@ -154,6 +154,16 @@ p {
   padding-top: 40vh;
 }
 
+.video {
+  height: 100%;
+  width: 100%;
+}
+
+.video1 {
+  height: 80vh;
+  width: 100%;
+}
+
 @media only screen and (max-width: 480px) {
   .fs-12 {
     font-size: 0.6rem;
