@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link rel="stylesheet" href="css/animate.css">
+
+    <script defer src="js/jquery-3.4.1.min.js"></script>
+    <script defer src="js/bootstrap.js"></script>
+    <script defer src="https://kit.fontawesome.com/65c8a36e2b.js" crossorigin="anonymous"></script>
+    <script defer src="js/contactForm.js"></script>
+</head>
+
+<body>
+<header class="container-fluid px-0 no-gutters align-items-center fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-sam bg-sam">
+        <a class="navbar-brand" href=""><img src="img/navbar.png" alt="Jinx" title="Jinx" width="75"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"   aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="img/hamburger.png" alt="Super Mega Death Rocket" title="Super Mega Death Rocket" width="75">
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Intro<span class="sr-only">(current)</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="lore.html">Lore</a></li>
+                <li class="nav-item"><a class="nav-link" href="builds.html">Builds</a></li>
+                <li class="nav-item"><a class="nav-link" href="stats.html">Stats</a></li>
+                <li class="nav-item active"><a class="nav-link" href="contact.html">Contacter</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<section id="form" class="wow fadeIn container-fluid align-items-center">
+    <div class="row py-6">
+
+    </div>
+    <div class="row">
+        <div class="offset-1 col-10 text-center">
+            <h1>Contact</h1>
+        </div>
+    </div>
+    <form class="fs-15">
+        <div class="form-row pt-4">
+            <textarea id="quest" rows="6" class="form-control" placeholder="Questions, commentaires, etc."></textarea>
+        </div>
+        <div class="form-row pt-2">
+            <div class="col-4">
+                <label for="nom">Nom</label>
+                <input type="text" class="form-control" id="nom" aria-describedby="Nom" placeholder="Nom">
+            </div>
+            <div class="col-4">
+                <label for="prenom">Prenom</label>
+                <input type="text" class="form-control" id="prenom" aria-describedby="Prénom" placeholder="Prénom">
+            </div>
+            <div class="col-4">
+                <label for="adresse">Adresse</label>
+                <input type="text" class="form-control" id="adresse" aria-describedby="Adresse" placeholder="Adresse">
+            </div>
+        </div>
+        <div class="form-row py-2">
+            <div class="col-4">
+                <label for="ville">Ville</label>
+                <input type="text" class="form-control" id="ville" aria-describedby="Ville" placeholder="Ville">
+            </div>
+            <div class="col-4">
+                <label for="cp">Code postal</label>
+                <input type="text" class="form-control" id="cp" aria-describedby="Code postal" placeholder="Code postal">
+            </div>
+            <div class="col-4">
+                <label for="tel">Téléphone</label>
+                <input type="tel" class="form-control" id="tel" aria-describedby="Téléphone" placeholder="Tel">
+            </div>
+        </div>
+        <div class="form-row pb-2">
+            <div class="col">
+                <label for="email">Email</label>
+                <input type="text" class="form-control" id="email" aria-describedby="Email" placeholder="Email">
+            </div>
+        </div>
+    </form>
+    <button id="Sub" type="button" class="btn btn-primary">Soumettre</button>
+</section>
+<footer class="container">
+    <div class="row">
+        <div class="col py-4">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2955734.115698476!2d-71.4493009!3d43.6594209!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb4306abfb2d5db%3A0x62611351f0f484d8!2sZaun%20Welding!5e0!3m2!1sfr!2sca!4v1576432036307!5m2!1sfr!2sca" width="100%" height="500vh" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+    </div>
+</footer>
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+</body>
+</html>

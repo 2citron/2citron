@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ea6233d7-e1ca-4088-bd99-c558c8a90e65" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Sass File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1UX3wCzYKOEvWaDinHWSCpP22lZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ProjetFinal\css" />
+      <recent name="E:\ProjetFinal\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\ProjetFinal\img" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ea6233d7-e1ca-4088-bd99-c558c8a90e65" name="Default Changelist" comment="" />
+      <created>1575489668378</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575489668378</updated>
+      <workItem from="1575489670251" duration="1823000" />
+      <workItem from="1575573130996" duration="507000" />
+      <workItem from="1575897447633" duration="1225000" />
+      <workItem from="1575988073150" duration="1945000" />
+      <workItem from="1576001740576" duration="3826000" />
+      <workItem from="1576115420497" duration="8355000" />
+      <workItem from="1576430139800" duration="7385000" />
+      <workItem from="1576437592539" duration="3522000" />
+      <workItem from="1576466745770" duration="1119000" />
+      <workItem from="1576507862546" duration="10817000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="716" y="342" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576436129405">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="716" y="342" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080/1920.175.1600.900/-1280.51.1280.1024@0.0.1920.1080" timestamp="1576436129405" />
+    <state x="740" y="294" key="FileChooserDialogImpl" timestamp="1576520339075">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="740" y="294" key="FileChooserDialogImpl/0.0.1920.1080/1920.175.1600.900/-1280.51.1280.1024@0.0.1920.1080" timestamp="1576520339075" />
+    <state x="616" y="250" key="run.anything.popup" timestamp="1576440292784">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="616" y="250" key="run.anything.popup/0.0.1920.1080/1920.175.1600.900/-1280.51.1280.1024@0.0.1920.1080" timestamp="1576440292784" />
+  </component>
+</project>
