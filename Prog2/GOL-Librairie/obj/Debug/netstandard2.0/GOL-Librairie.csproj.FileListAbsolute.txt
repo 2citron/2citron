@@ -1,8 +1,0 @@
-D:\École\Session 2\GOL-Librairie\bin\Debug\netstandard2.0\GOL-Librairie.deps.json
-D:\École\Session 2\GOL-Librairie\bin\Debug\netstandard2.0\GOL-Librairie.dll
-D:\École\Session 2\GOL-Librairie\bin\Debug\netstandard2.0\GOL-Librairie.pdb
-D:\École\Session 2\GOL-Librairie\obj\Debug\netstandard2.0\GOL-Librairie.csprojAssemblyReference.cache
-D:\École\Session 2\GOL-Librairie\obj\Debug\netstandard2.0\GOL-Librairie.AssemblyInfoInputs.cache
-D:\École\Session 2\GOL-Librairie\obj\Debug\netstandard2.0\GOL-Librairie.AssemblyInfo.cs
-D:\École\Session 2\GOL-Librairie\obj\Debug\netstandard2.0\GOL-Librairie.dll
-D:\École\Session 2\GOL-Librairie\obj\Debug\netstandard2.0\GOL-Librairie.pdb
